@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Quiz de TI</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main class="container">
+
+        <!-- TELA INICIAL -->
+        <section id="tela-inicial" class="tela ativa">
+
+            <div class="icone">💻</div>
+
+            <h1>Qual área de TI combina com você?</h1>
+
+            <p>
+                Responda 5 perguntas rápidas e descubra
+                qual área da Tecnologia da Informação
+                mais combina com o seu perfil.
+            </p>
+
+            <button id="btn-iniciar" class="btn">
+                Começar Quiz
+            </button>
+
+        </section>
+
+
+        <!-- TELA DO QUIZ -->
+        <section id="tela-quiz" class="tela">
+
+            <div class="topo-quiz">
+
+                <span id="contador">
+                    Pergunta 1 de 5
+                </span>
+
+                <div class="barra">
+                    <div id="progresso"></div>
+                </div>
+
+            </div>
+
+            <h2 id="pergunta">
+                Pergunta aqui
+            </h2>
+
+            <div id="opcoes" class="opcoes">
+                <!-- As opções serão criadas pelo JavaScript -->
+            </div>
+
+        </section>
+
+
+        <!-- TELA DE RESULTADO -->
+        <section id="tela-resultado" class="tela">
+
+            <div class="icone" id="icone-resultado">
+                🎯
+            </div>
+
+            <p class="resultado-label">
+                SEU RESULTADO
+            </p>
+
+            <h1 id="resultado-titulo">
+                Desenvolvimento de Software
+            </h1>
+
+            <p id="resultado-descricao">
+                Descrição da área.
+            </p>
+
+            <div class="outras-areas">
+
+                <h3>Por que essa área?</h3>
+
+                <p id="resultado-perfil">
+                    Explicação do resultado.
+                </p>
+
+            </div>
+
+            <button id="btn-reiniciar" class="btn">
+                Fazer novamente
+            </button>
+
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
